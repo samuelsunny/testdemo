@@ -219,7 +219,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                     <th scope="col" class="text-center">Product image</th>
                     <th scope="col" class="text-center">Product name</th>
                     <th scope="col" class="text-center">Product type</th>
-                    <th scope="col" class="text-center">Stock left</th>
                     <th scope="col" class="text-center">Price</th>
                     <th scope="col" class="text-center">Exporter name</th>
                     </tr>
@@ -233,9 +232,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                     </td>
                     <td class="text-center"><?php echo $products_data[$row][1]; ?></td>
                     <td class="text-center"><?php echo $products_data[$row][3]; ?></td>
-                    <td class="text-center"><?php echo $products_data[$row][7]; ?></td>
-                    <td class="text-center"><?php echo "$",$products_data[$row][8]; ?></td>
-                    <td class="text-center"><?php echo $products_data[$row][10]; ?></td>
+                    <td class="text-center"><?php echo "$",$products_data[$row][7]; ?></td>
+                    <td class="text-center"><?php echo $products_data[$row][9]; ?></td>
                     </tr>
                     <?php }?>
                 </tbody>
